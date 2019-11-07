@@ -1,0 +1,4 @@
+configserver = svr4 = [cf0]
+router = svr1
+shard 1 = svr2 = [rs0]
+shard 2 = svr3 = [rs1]

@@ -1,0 +1,1 @@
+"mongodbUrl": "mongodb://admin:admin1234@192.168.99.100:27017/example?authSource=example",

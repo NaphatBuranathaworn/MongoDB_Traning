@@ -1,0 +1,7 @@
+1. docker exec -it mongosvr bash
+2. mongoimport --db test --collection states --file /home/states.json --jsonArray
+3. db.getCollection('states').count()
+
+
+## workshop3
+mongoimport -u admin -p admin1234 --authenticationDatabase admin --db example --collection postcode --file /home/sample_data.json --jsonArray
